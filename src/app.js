@@ -14,7 +14,7 @@ import docenteRoutes from './routes/docente.routes.js';
 const app = express();
 
 app.use(cors({
-    origin: 'https://misionesinfantiles.netlify.app/',
+    origin: 'https://misionesinfantiles.netlify.app',
     credentials: true,
 }));
 
